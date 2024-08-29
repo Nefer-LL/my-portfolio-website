@@ -1,0 +1,84 @@
+layout: page
+title: "Portfolio"
+permalink: /URL-PATH
+
+# My Web Development Skills
+
+Welcome to my portfolio page! Here, I'll showcase my skills in various web technologies.
+
+## HTML
+
+I have strong knowledge of HTML5, including:
+
+- Semantic markup
+- Accessibility best practices
+- HTML forms
+
+Here's a simple example of an HTML structure:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>I'm a passionate web developer...</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Name</p>
+    </footer>
+</body>
+</html>
+
+## CSS
+
+My CSS skills include:
+
+- Responsive design
+- Flexbox and Grid layouts
+- CSS animations
+
+Here's a sample of my CSS work:
+
+
+css .card { background-color: #f0f0f0; border-radius: 8px; padding: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease; }
+
+.card:hover { transform: translateY(-5px); }
+
+## JavaScript
+
+I'm proficient in modern JavaScript, including:
+
+- ES6+ features
+- Asynchronous programming
+- DOM manipulation
+
+Check out this JavaScript snippet:
+
+
+javascript const fetchData = async (url) => { try { const response = await fetch(url); const data = await response.json(); return data; } catch (error) { console.error('Error fetching data:', error); } };
+
+## SQL
+
+While I can't run SQL directly on this static site, I have experience with:
+
+- Database design
+- Complex queries
+- Data manipulation
+
+Here's an example of a SQL query I might use:
+
+
+sql SELECT users.name, COUNT(orders.id) as order_count FROM users LEFT JOIN orders ON users.id = orders.user_id GROUP BY users.id HAVING order_count > 5 ORDER BY order_count DESC;
+
+---
+
+Feel free to [contact me](mailto:lindsay.e.lehman@gmail.com) for more information or to discuss potential projects!
